@@ -1,0 +1,5 @@
+1. Header is set to fixed, but when scrolling there is a gap at the top of the window. Also the first image is positioned under
+the header.
+2. How to center the 3 span elements (class= "nav") in their div container.
+3. How to bring divs and headers over the first and last image.
+4. When resizing the window the divs with class= "location-content" wrap even though none is set. 
