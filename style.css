@@ -36,9 +36,13 @@ header div {
 
 #first-image {
   margin-top: 70px;
-  display: inline-block;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  display: inline-flex;
+  align-items: center;
   height: 700px;
   width: 1200px;
+  justify-content: center;
+
 }
 .nav {
   margin-right: 15;
@@ -47,6 +51,7 @@ header div {
 }
 
 .roger {
+  width: 100%;
   background-color: black;
   position: relative;
 }
@@ -71,12 +76,17 @@ header div {
   text-align: center;
 }
 
+#location-text {
+  margin-bottom: 10px;
+
+}
 .location {
   display: inline-block;
   width: 1000px;
 }
 
 .location-content {
+  background-color: black;
   display: inline-block;
   text-align: center;
   padding: 20px;
@@ -85,4 +95,10 @@ header div {
 #copyright {
   position: absolute;
   left: 20px;
+}
+
+#last-image {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 1200px;
+  height: 500px;
 }
