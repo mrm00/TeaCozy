@@ -6,11 +6,13 @@ body {
   background-color: black;
   opacity: .9;
   text-align: center;
+  margin: 0px;
 }
 
 .flex-container {
   display: flex;
   flex-wrap: center;
+  align-items: center;
 }
 header {
   display: flex;
@@ -26,13 +28,18 @@ header img {
     height: 50px;
 }
 header div {
-  height: 100%;
   display: inline-block;
   position: absolute;
-  right: 0;
+  right: 2px;
   flex-wrap: wrap;
 }
 
+#first-image {
+  margin-top: 70px;
+  display: inline-block;
+  height: 700px;
+  width: 1200px;
+}
 .nav {
   margin-right: 15;
   display: inline-flex;
